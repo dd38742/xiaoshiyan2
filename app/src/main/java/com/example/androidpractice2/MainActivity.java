@@ -26,10 +26,10 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(MainActivity.this,NewActivity.class);
-                intent.putExtra("name","Zhanagsan");
+                intent.putExtra("name","李艺伦");
                 intent.putExtra("age",20);
                 startActivityForResult(intent,0);
-                Toast.makeText(MainActivity.this,"zhangsan"+"20",Toast.LENGTH_LONG);
+                Toast.makeText(MainActivity.this,"李艺伦"+"20",Toast.LENGTH_LONG);
             }
         });
     }
