@@ -12,7 +12,7 @@
         <Button
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:id="@+id/buttonTest"
+            android:id="@+id/buttonTest"/>/a
             android:text="跳转 over"/>
         //xmlns:app="http://schemas.android.com/apk/res-auto"
     </LinearLayout>
